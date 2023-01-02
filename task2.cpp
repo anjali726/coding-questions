@@ -1,3 +1,7 @@
+//task2
+//Find the smallest and second smallest element in an array
+//Problem link : https://practice.geeksforgeeks.org/problems/find-the-smallest-and-second-smallest-element-in-an-array3226/0
+
 #include<bits/stdc++.h>
 vector<int> minAnd2ndMin(int a[], int n) {
     vector<int> ans;
@@ -25,3 +29,11 @@ vector<int> minAnd2ndMin(int a[], int n) {
     }
     return ans;
 }
+
+//For Input: 
+//5 
+//2 4 3 5 6
+//Your Output: 
+//2 3
+//Expected Output: 
+//2 3
